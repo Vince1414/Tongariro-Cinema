@@ -1,0 +1,40 @@
+footer {
+ background-color: #3B217C;
+ width: 88%;
+ padding: 1.5rem 0;
+ padding-left: 12%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-top: 5rem;
+}
+
+.logofooter {
+ width: 100%;
+ margin-left: 2rem;
+ padding: 0;
+}
+
+
+footer ul {
+ list-style-type: none;
+ margin: 0;
+ margin-right: 17rem;
+}
+
+footer li {
+ font-weight: bold;
+}
+
+footer a {
+ display: flex;
+ text-decoration: none;
+ font-weight: medium;
+ text-align: left;
+ color: white;
+ padding-bottom: 1rem;
+}
+
+footer a:hover {
+ text-decoration: underline;
+}

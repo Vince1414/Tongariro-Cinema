@@ -1,0 +1,45 @@
+.carousel-container {
+ display: flex;
+ justify-content: center;
+ margin-bottom: 4rem;
+}
+
+.carousel-card {
+ position: relative;
+ text-align: center;
+}
+
+.description {
+ position: absolute;
+ text-align: left;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ background: linear-gradient(to top, rgba(121, 109, 252, 0.422), transparent);
+ /* Add a semi-transparent background */
+ color: white;
+ /* Text color for the description */
+ padding: 10px;
+ opacity: 1;
+ transition: opacity 0.3s ease;
+ padding-bottom: 2.5rem;
+}
+
+/* .carousel-card:hover .description {
+ opacity: 1;
+} */
+
+.description h3,
+.description h4,
+.description a {
+ margin: 0;
+ padding: 1rem 0;
+ padding-right: 20%;
+ padding-left: 15%;
+}
+
+.description a {
+ text-decoration: none;
+ color: #FFC5F2;
+ /* Link color */
+}

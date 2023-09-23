@@ -1,0 +1,52 @@
+nav {
+ background-color: #3B217C;
+ display: flex;
+ position: relative;
+}
+
+.logo {
+ margin-top: 0.4rem;
+ margin-left: 10%;
+}
+
+.logo img {
+ width: 100%;
+}
+
+
+nav ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ display: flex;
+ position: absolute;
+ right: 0;
+ margin-top: 2.5%;
+ margin-right: 10%;
+}
+
+/* Navigation list items */
+nav li {
+ display: flex;
+ font-weight: medium;
+ font-size: 0.7rem;
+ /* Add some spacing between list items */
+}
+
+/* Navigation links */
+nav a {
+ text-decoration: none;
+ color: white;
+ margin: 0 0.9rem 0.9rem;
+ transition: background-color 0.3s;
+ display: flex;
+ align-items: center;
+ text-transform: uppercase;
+ text-decoration: underline;
+ font-weight: bold;
+}
+
+/* Navigation link hover effect */
+nav a:hover {
+ text-decoration: none;
+}
